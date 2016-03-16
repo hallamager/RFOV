@@ -224,12 +224,11 @@ img{
 	margin: 0px 15px;
 }
 .knowmore-btn{
-	border: 2px solid #fff;
+	border: 2px solid rgba(255, 255, 255, 0.74);;
 	border-radius: 50%;
-	color: #fff;	
+	color: rgba(255, 255, 255, 0.74);;	
 	font-size: 20px;	
 	font-weight: bold;
-	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	padding: 18px 22px;
 	-webkit-transition: all 0.5s;
@@ -315,6 +314,12 @@ img{
 	text-align: right;
 	width: 100%;
 }
+
+.main-nav {
+	display: inline-block;
+	width: 100%;
+}
+
 .main-nav li {
 	display: inline-block;
 	float: none;
@@ -427,12 +432,30 @@ img{
 	text-align: center;
 	width: 100%;
 }
+
 .tittle {
-	color: #3a3a3a;
+	color: #939090;
 	font-size: 40px;
 	margin-bottom: 0;
 	padding-bottom: 18px;
 }
+
+.tittle1 {
+	color: rgba(255, 255, 255, 0.74);
+	font-size: 40px;
+	margin-bottom: 0;
+	padding-bottom: 18px;
+    padding-top: 100px;
+}
+
+.tittle2 {
+	color: #939090;
+	font-size: 40px;
+	margin-bottom: 0;
+	padding-bottom: 18px;
+    padding-top: 100px;
+}
+
 .tittle-line {
 	background-color: #898989;
 	display: inline-block;
@@ -740,7 +763,7 @@ img{
 	position: absolute;
 	width: inherit;
 	height: inherit;
-	padding: 100px 0;
+	padding: 110px 0;
 	border-radius: 50%;
 	opacity: 0;
 	
